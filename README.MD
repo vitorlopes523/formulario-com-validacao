@@ -8,8 +8,8 @@ Quest do módulo de JavaScript Intermediário do curso DevQuest do Dev em Dobro.
 
 ### Links
 
-- URL do Site ao vivo: [https://vitorlopes523.github.io/redes-sociais/]
-- URL do código no GitHub: [https://github.com/vitorlopes523/redes-sociais]
+- Formulário ao vivo: [https://vitorlopes523.github.io/formulario-com-validacao/]
+- URL do código no GitHub: [https://github.com/vitorlopes523/formulario-com-validacao]
 
 ## Meu processo
 

@@ -1,0 +1,120 @@
+body {
+  background-image: url('../img/fundo.png');
+  background-size: contain;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.info-duvida .title {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+  margin-bottom: 11px;
+  text-transform: uppercase;
+}
+
+.info-duvida .descricao {
+  width: 300px;
+  font-weight: 400;
+  color: #fff;
+  text-align: justify;
+  line-height: 18px;
+}
+
+.formulario {
+  background-color: #fff;
+  width: 340px;
+  height: 378px;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputs, textarea, .btn-enviar {
+  font-weight: 700;
+  font-size: 15px;
+  width: 300px;
+}
+
+.formulario div {
+  margin-bottom: 15px;
+}
+
+.formulario div .inputs {
+  height: 35px;
+  border-radius: 5px;
+}
+
+.formulario div textarea {
+  height: 100px;
+  border-radius: 5px;
+}
+
+.mensagem-de-alerta {
+  color: red;
+  font-size: 8px;
+  margin-bottom: -9px;
+  display: none;
+}
+
+.mostrar {
+  display: block;
+}
+
+.formulario .aviso {
+  margin: -10px 0 0 -8px;
+}
+
+.formulario .btn-enviar {
+  background-color: #3CCC87;
+  color: #fff;
+  margin-top: 11px;
+  height: 41px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.formulario .btn-enviar:hover {
+  transform: scale(1);
+}
+
+.valido {
+  border: 2px solid rgba(0, 194, 43, 1);
+}
+
+.invalido {
+  border: 2px solid red;
+}
+
+@media(max-width: 748px) {
+  main {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .info-duvida .title {
+    text-align: center;
+  }
+
+  .info-duvida .descricao {
+    margin: 0 auto;
+  }
+
+}
